@@ -1,0 +1,70 @@
+{
+  "cesp_version": "1.0",
+  "name": "sc2_carrier",
+  "display_name": "StarCraft II Carrier",
+  "version": "1.0.0",
+  "description": "Protoss Carrier unit voice lines from StarCraft II",
+  "author": {
+    "name": "Bryce Evans",
+    "github": "bryce-evans"
+  },
+  "license": "Fair Use",
+  "language": "en",
+  "categories": {
+    "session.start": {
+      "sounds": [
+        {
+          "file": "sounds/carrier-has-arrived.mp3",
+          "label": "Carrier has arrived",
+          "sha256": "443fd3431ec1c4680915e6ee6c817f712ad6d65d2b44fbce8cc119ab2db45050"
+        }
+      ]
+    },
+    "task.acknowledge": {
+      "sounds": [
+        {
+          "file": "sounds/we-are-ready.ogg",
+          "label": "We are ready",
+          "sha256": "3a52e8249642d1835e16ea1b0b856b42dc691834de74608a61ab6bca469cb35c"
+        },
+        {
+          "file": "sounds/uhn-anak-paru.ogg",
+          "label": "Uhn'anak paru",
+          "sha256": "dd0ab0471a60e6f85e7d09cd728a506d03c06de8c5ef7c37ece6981e783691a2"
+        }
+      ]
+    },
+    "task.complete": {
+      "sounds": [
+        {
+          "file": "sounds/the-battle-is-won.ogg",
+          "label": "The battle is won",
+          "sha256": "a0326561841a2a6f12009cfbbe4ab709be6fa7bff72e1ec43ea16a8b84b0e5d1"
+        }
+      ]
+    },
+    "task.error": {
+      "sounds": [
+        {
+          "file": "sounds/oblivion-descends.ogg",
+          "label": "Oblivion descends",
+          "sha256": "393c72903cf95a7f0bfb523ae01ed3099ada29c6f6e6cb9ef2951f78b0a606a9"
+        },
+        {
+          "file": "sounds/the-end-has-come.ogg",
+          "label": "The end has come",
+          "sha256": "8377111927dbd70ccafc1d7f91f2a49d65abab8e632028dfbf1ae8d1e0cadbd4"
+        }
+      ]
+    },
+    "input.required": {
+      "sounds": [
+        {
+          "file": "sounds/awaiting-the-call.ogg",
+          "label": "Awaiting the call",
+          "sha256": "c2c5fcbbea4b952d5f1f6d0d70ca3d5598567cad2001b5fdf9e25309505606c4"
+        }
+      ]
+    }
+  }
+}
